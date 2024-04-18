@@ -1,0 +1,1 @@
+<swiper class="banner" indicator-dots circular autoplay="{{true}}" indicator-active-color="#c28d63"><swiper-item wx:for="{{a}}" wx:for-item="item" wx:key="b"><image src="{{item.a}}"></image></swiper-item></swiper>

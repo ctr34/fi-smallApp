@@ -1,0 +1,42 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path" : "pages/cake/cake",
+			"style" : 
+			{
+				"navigationBarTitleText" : "蛋糕列表",
+				"enablePullDownRefresh": true
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#c28d63",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#d8d8d8",
+		"selectedColor": "#c28d63",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabs/home.png",
+				"selectedIconPath": "static/tabs/home-s.png"
+			},
+			{
+				"pagePath": "pages/cake/cake",
+				"text": "分类",
+				"iconPath": "static/tabs/type.png",
+				"selectedIconPath": "static/tabs/type-s.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

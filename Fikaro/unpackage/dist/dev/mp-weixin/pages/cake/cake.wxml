@@ -1,0 +1,1 @@
+<view><view class="cont"><view wx:for="{{a}}" wx:for-item="item" class="cake-item"><view class="poster"></view><view class="info-content"><view class="info"><view class="fs-28"> 草莓蛋糕 </view><view class="fs-16"> strawbarry cake </view><view class="fs-18"><text class="fs-14">￥</text> 188.00 </view></view><view class="cart-btn"></view></view></view></view></view>

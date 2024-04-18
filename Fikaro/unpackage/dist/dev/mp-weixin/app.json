@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cake/cake"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#c28d63",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#d8d8d8",
+    "selectedColor": "#c28d63",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabs/home.png",
+        "selectedIconPath": "static/tabs/home-s.png"
+      },
+      {
+        "pagePath": "pages/cake/cake",
+        "text": "分类",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type-s.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
